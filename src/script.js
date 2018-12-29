@@ -46,7 +46,7 @@ function handleClick(event)
  function hasCellActiveNeighbour(x, y) 
  {
 	if(!cells[x] || !cells[x][y])
-		  return 0;
+		  return false;
 	  
     return cells[x][y].active;
 }
